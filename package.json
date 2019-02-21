@@ -1,0 +1,43 @@
+{
+  "name": "cra-craco-ts-emotion",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@craco/craco": "^3.4.1",
+    "@emotion/babel-preset-css-prop": "^10.0.7",
+    "@types/node": "^11.9.4",
+    "@types/react": "^16.8.4"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "prettier": {
+    "useTabs": false,
+    "printWidth": 100,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false,
+    "semi": false
+  }
+}
